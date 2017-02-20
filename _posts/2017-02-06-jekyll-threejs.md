@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Jekyll with Three.js
-description: Demonstration of embedding a three.js rendered canvas in Jekyll blog, plus dat.giui control elements - exploding the teapots!
-tags: threejs webgl javascript jekyll teapot-explotion
+title: Jekyll: Exploding teapot with Three.js
 ---
 
-Here is an example of embedding [three.js](https://github.com/mrdoob/three.js/) and [dat.gui](https://github.com/dataarts/dat.gui) on a Jekyll blog. It is working after a few attempts. 
+Adapted from  [http://longqian.me/2017/02/06/jekyll-threejs/]
+(http://longqian.me/2017/02/06/jekyll-threejs/)
+
+
+Embedding [three.js](https://github.com/mrdoob/three.js/) and [dat.gui](https://github.com/dataarts/dat.gui) on a Jekyll blog. 
 
 ### Demo
 
@@ -53,17 +55,6 @@ void main() {
 </script>
 <script src="/public/js/teapot.js"></script>
 
-You can **CLICK** on the canvas to explode the teapot. Number of teapots and the tessellation level of them can be modifed via the GUI elements on the top right corner.
-
-### How?
-
-Essentially, Jekyll is a tool to parse pre-defined styles, scripts and texts, and build static website out of these pieces. Three.js and dat.gui are perfectly static, and parsable for Jekyll. So, why not?
-
-#### Canvas holder
-
-In order for the canvas to be located on a specific position of the blog, like other blog components, a canvas holder is needed to hold the canvas. Therefore, all elements in the blog are displayed in a **correct** order. This is a little bit different from other demos of three.js, because in most cases, or examples, the three.js canvas is the whole screen. 
-
-Another role of the canvas holder is to place the dat.gui interface as well. We don't want the default location of dat.gui (right top corner of the whole page).
 
 #### Dat.gui holder
 
@@ -89,8 +80,7 @@ You might noticed the additional style definition for canvas. Basically, it forc
 
 #### Scripts
 
-The auto placement of dat.gui should be turned off when it is initialized.
-It is highly inspired by this [example](http://codepen.io/eternalminerals/pen/avZBOr).
+The auto placement of dat.gui should be turned off when it is initialized, [example](http://codepen.io/eternalminerals/pen/avZBOr).
 
 {% highlight javascript %}
 var gui = new dat.GUI( { autoPlace: false } );
@@ -111,10 +101,4 @@ renderer.setSize( width, height );
 canvasHolder.appendChild( renderer.domElement );
 {% endhighlight %}{: .highlight-left }
 
-
-### Finally
-
-Blogs should be **COOL**. 
-
-Thanks! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
 

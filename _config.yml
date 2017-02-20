@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            wi ai
 tagline:          'wiai'
-description:      'haxe sarma press'
+description:      'how and why'
 baseurl:          /
 version:          0.1
 
@@ -18,7 +18,7 @@ author:
 
 paginate:         1
 
-gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+gems:             [jekyll-paginate, jekyll-sitemap]
 
 github:
   repo:           https://github.com/wiai/wiai.github.io/

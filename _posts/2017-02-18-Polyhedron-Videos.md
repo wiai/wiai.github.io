@@ -16,3 +16,8 @@ title: The Polyhedron Video Collection
 {% include youtubePlayer.html id="mdIP3hyxi3k" %}
 
 {% include youtubePlayer.html id="OVvHj1FLCn4" %}
+
+### limiting case: spheres
+
+{% include youtubePlayer.html id="ElvLZMsYXlo" %}
+

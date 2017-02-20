@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Kossel Cones
+title: Kossel Cones in three.js
 ---
+
+This is a simple example of embedding WebGL 3D graphics via [three.js](https://github.com/mrdoob/three.js/) into a blog post. 
 
 
 
@@ -42,7 +44,6 @@ lattice plane (the optical plane of mirror reflection).
 
    
 
-This is an example of embedding [three.js](https://github.com/mrdoob/three.js/). 
 
 
 

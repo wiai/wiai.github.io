@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Polyhedron Videos
+title: Polyhedron Video Collection
 ---
 
 {% include youtubePlayer.html id="6c-RbGZBnBI" %}

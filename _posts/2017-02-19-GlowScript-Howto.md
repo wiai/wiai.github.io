@@ -92,8 +92,7 @@ From [www.glowscript.org](http://www.glowscript.org/docs/GlowScriptDocs/libraryu
 > By far the *easiest* way to embed a glowscript program in your web page is to edit it at glowscript.org and then use the "Share" feature to get HTML source, which can be inserted into your own web page. This is easiest because the glowscript.org environment applies a number of transformations of GlowScript programs to add operator overloading for vectors and the ability to write infinite loops and yet update the window.
 
 
-
-However, for use on GitHub, the references to the necessary JavaScript libraries must be via https, which GlowScript does not seem  to provide at the moment. This can be overcome by hosting these libraries inside the GitHub project (as a side effect, in this way the page can be run without accessing glowscript.org). 
+However, for use on GitHub, the references to the necessary JavaScript libraries must be via https, which GlowScript does not seem  to provide at the moment. This can be overcome by hosting these libraries inside the GitHub project. Moreover, in this way the Github site can also be run as a local static site on your computer by using "jekyll serve". 
 
 1. copy the Javascript libraries from the [GlowScript Githbub project](https://github.com/BruceSherwood/glowscript)
  to your own Github repository (e.g. into /public/js) e.g.:

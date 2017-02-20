@@ -4,7 +4,7 @@ title: Template for posts using Three.js WebGL graphics
 ---
 
 
-Here is an example of embedding [three.js](https://github.com/mrdoob/three.js/) and [dat.gui](https://github.com/dataarts/dat.gui) on a Jekyll blog. It is working after a few attempts. 
+Embedding [three.js](https://github.com/mrdoob/three.js/) and [dat.gui](https://github.com/dataarts/dat.gui) on a Jekyll blog. 
 
 ### Cubemap Demos
 

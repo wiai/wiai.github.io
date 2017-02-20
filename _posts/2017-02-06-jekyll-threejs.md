@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploding Teapot with Three.js for Jekyll
+title: Exploding Teapot for Jekyll with Three.js
 ---
 
 This Example is mostly copied from  [http://longqian.me/2017/02/06/jekyll-threejs/]

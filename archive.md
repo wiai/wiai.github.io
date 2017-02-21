@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive
+title: Contents
 ---
 
 <div id="archive">  

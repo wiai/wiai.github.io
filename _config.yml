@@ -6,9 +6,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            '?'
+title:            'Q & A'
 tagline:          'wiai'
-description:      '!'
+description:      ' '
 baseurl:          /
 version:          0.1
 

@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            wi ai
+title:            Q & A
 tagline:          'wiai'
 description:      'how and why'
 baseurl:          /

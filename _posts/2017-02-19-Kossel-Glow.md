@@ -107,7 +107,7 @@ main;
 ;$(function(){ window.__context = { glowscript_container: $("#glowscript").removeAttr("id") }; main(__func) })})()
 //--><!]]></script>
 </div>
-(rotate with right mouse button)
+
 <br>
 
 For a point-like source of waves inside a crystal, the **Kossel Cones** show the directions 
@@ -247,7 +247,8 @@ while(true){
 }
 ```
 
-
+<br>
+Rotate graphics with right mouse button. Zoom with wheel.
 
 
 
